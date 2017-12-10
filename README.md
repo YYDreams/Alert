@@ -6,10 +6,11 @@
 
 
 
-基本使用
-导入头文件，其次在需要的地方写上
+#基本使用
 
-### 1个按钮
+### 导入头文件，其次在需要的地方写上
+
+#### 只显示1个按钮的样式
 ```
     HHShowView *showView = [HHShowView alertTitle:@"有点意思" message:@"你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢" ];
     [showView addAction:[HHAlertAction actionTitle:@"确定" style:HHAlertActionConfirm handler:^(HHAlertAction *action) {
@@ -18,7 +19,7 @@
     [showView show];
 
 ```
-### 2个按钮
+#### 显示2个按钮的样式
 ```
   HHShowView *showView = [HHShowView alertTitle:@"有点意思" message:@"你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢你觉得呢" ];
     showView.butttonCancelBgColor = [UIColor orangeColor];
