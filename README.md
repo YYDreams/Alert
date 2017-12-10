@@ -1,12 +1,9 @@
 # Alert
 封装自定义弹窗
 
-(http://www.jianshu.com/p/a508f7279b4b)
+![1](http://upload-images.jianshu.io/upload_images/1658521-45ea1921287874ab.gif)
+![2](http://upload-images.jianshu.io/upload_images/1658521-bbc07be189d27dfa.gif)
 
-
-![1]http://www.jianshu.com/p/a508f7279b4)
-
-(http://www.jianshu.com/p/a508f7279b4b)
 
 
 基本使用
